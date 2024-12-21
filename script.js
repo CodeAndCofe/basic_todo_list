@@ -37,6 +37,7 @@ x.addEventListener("click", (e)=>
 btn.addEventListener("click", () =>
 {
 	text = writeUp.value;
+	writeUp.value = "";
 	if (text != "")
 		add_list(text);
 	else
